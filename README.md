@@ -1,5 +1,4 @@
 <h1 align="center"">
-  <img alt="Logo da Anhanguera"style="vertical-align: middle; width: 30px;">
   Anhaguera Salvador Iguatemi
 </h1>
 
