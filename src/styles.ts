@@ -1,10 +1,6 @@
 import styled from 'styled-components'
 
 export const HomeContainer = styled.main`
---bg-color: #ebd8bf;
-  --text-color: #444449;
-  --primary-color: #e48315;
-  --primary-color-dark: #4C3575;
 
   text-align: center;
 
@@ -21,18 +17,17 @@ export const HomeContainer = styled.main`
     width: 100px;
     height: 100px;
     padding: 3.7px;
-    border: var(--primary-color) solid 4px;
+    border: ${props => props.theme.primaryColor} solid 4px;
 
     transition: background 400ms;
   }
 
 img.avatar:hover {
-  border: var(--primary-color-dark) solid 4px;
+  border: ${props => props.theme.primaryColorDark}  solid 4px;
 }
 
 h1 {
   font-size: 2rem;
-  color: var(--text-color);
   margin-top: 1.5rem;
   cursor: pointer;
  
@@ -60,8 +55,8 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--primary-color);
-  color:var(--bg-color);
+  background: ${props => props.theme.primaryColor};
+  color: ${props => props.theme.bgColor};
   text-transform: uppercase;
   font-size: 0.8rem;
 
@@ -74,7 +69,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background: var(--primary-color-dark);
+  background: ${props => props.theme.primaryColorDark};
 }
 
 @media (max-width: 728px){
@@ -84,5 +79,4 @@ ul li a:hover {
   }
   
 }
-
 `;
