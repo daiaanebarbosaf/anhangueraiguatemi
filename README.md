@@ -1,5 +1,5 @@
-<h1 align="center" style="text-align: center;">
-  <img alt="Logo da Anhanguera" src="../anhangueraiguatemi/src/assets/logo.png" style="vertical-align: middle; width: 40px; text-align: center;">
+<h1 align="center"">
+  <img alt="Logo da Anhanguera"style="vertical-align: middle; width: 30px;">
   Anhaguera Salvador Iguatemi
 </h1>
 
