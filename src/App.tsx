@@ -17,28 +17,23 @@ import avatarAnhanguera from './assets/anhanguera-iguatemi.png'
         </a>
 
         <h1>Anhanguera Salvador Iguatemi</h1>
-        <p className="username">1ª jornada  de conscientização sobre TEA</p>
+        <p className="username">Reforço de Matemática</p>
 
         <ul>
 
           <li>
             <a 
-              href="https://doity.com.br/anhangueraoficinatea01" target="_blank">15 de Abril - Oficina 01
+              href="https://doity.com.br/anhanguera-reforco-mat-03" target="_blank">09 de Maio - Dia 03
             </a>
           </li>
           <li>
             <a 
-              href="https://doity.com.br/anhangueraoficinatea02" target="_blank">16 de Abril - Oficina 02
+              href="https://doity.com.br/anhanguera-reforco-mat-04" target="_blank">16 de Maio - Dia 04
             </a>
           </li>
         <li>
             <a 
-              href="https://doity.com.br/anhangueraoficinatea03" target="_blank">17 de Abril - Oficina 03
-            </a>
-          </li>
-          <li>
-            <a 
-              href="https://doity.com.br/anhangueraoficinatea04" target="_blank">18 de Abril - Oficina 04
+              href="https://doity.com.br/anhanguera-reforco-mat-05" target="_blank">23 de Abril - Dia 05
             </a>
           </li>
         </ul>
