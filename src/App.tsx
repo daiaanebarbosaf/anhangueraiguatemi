@@ -17,23 +17,23 @@ import avatarAnhanguera from './assets/anhanguera-iguatemi.png'
         </a>
 
         <h1>Anhanguera Salvador Iguatemi</h1>
-        <p className="username">Reforço de Matemática</p>
+        <p className="username">Eventos</p>
 
         <ul>
 
           <li>
             <a 
-              href="https://doity.com.br/anhanguera-reforco-mat-03" target="_blank">09 de Maio - Dia 03
+              href="https://doity.com.br/anhanguera-ser-social" target="_blank">Palestra de Serviço Social - 15 De Maio
             </a>
           </li>
           <li>
             <a 
-              href="https://doity.com.br/anhanguera-reforco-mat-04" target="_blank">16 de Maio - Dia 04
+              href="https://doity.com.br/anhanguera-reforco-mat-04" target="_blank">Reforço de Matemática - 16 de Maio - Dia 04
             </a>
           </li>
         <li>
             <a 
-              href="https://doity.com.br/anhanguera-reforco-mat-05" target="_blank">23 de Abril - Dia 05
+              href="https://doity.com.br/anhanguera-reforco-mat-05" target="_blank">Reforço de Matemática - 23 de Abril - Dia 05
             </a>
           </li>
         </ul>
