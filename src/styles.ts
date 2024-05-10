@@ -73,9 +73,15 @@ ul li a:hover {
 }
 
 @media (max-width: 728px){
+
   ul {
     list-style: none;
-    width: 90%;
+    width: 100%;
+  }
+
+  ul li a {
+    padding: 1rem;
+    font-size: 0.7rem;
   }
   
 }
