@@ -20,12 +20,6 @@ import avatarAnhanguera from './assets/anhanguera-iguatemi.png'
         <p className="username">Eventos</p>
 
         <ul>
-
-          <li>
-            <a 
-              href="https://doity.com.br/anhanguera-ser-social" target="_blank">Palestra de Serviço Social - 15 De Maio
-            </a>
-          </li>
           <li>
             <a 
               href="https://doity.com.br/anhanguera-reforco-mat-04" target="_blank">Reforço de Matemática - 16 de Maio - Dia 04
