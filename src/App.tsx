@@ -22,11 +22,6 @@ import avatarAnhanguera from './assets/anhanguera-iguatemi.png'
         <ul>
           <li>
             <a 
-              href="https://doity.com.br/anhanguera-reforco-mat-04" target="_blank">Reforço de Matemática - 16 de Maio - Dia 04
-            </a>
-          </li>
-        <li>
-            <a 
               href="https://doity.com.br/anhanguera-reforco-mat-05" target="_blank">Reforço de Matemática - 23 de Abril - Dia 05
             </a>
           </li>
