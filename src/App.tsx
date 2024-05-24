@@ -22,7 +22,7 @@ import avatarAnhanguera from './assets/anhanguera-iguatemi.png'
         <ul>
           <li>
             <a 
-              href="https://doity.com.br/anhanguera-reforco-mat-05" target="_blank">Reforço de Matemática - 23 de Abril - Dia 05
+              href="https://doity.com.br/anhanguera-workshop-mpce" target="_blank">Workshop: Marca Pessoal e Campo de Estágio
             </a>
           </li>
         </ul>
