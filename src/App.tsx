@@ -21,9 +21,7 @@ import avatarAnhanguera from './assets/anhanguera-iguatemi.png'
 
         <ul>
           <li>
-            <a 
-              href="https://doity.com.br/anhanguera-workshop-mpce" target="_blank">Workshop: Marca Pessoal e Campo de Estágio
-            </a>
+            Por enquanto não há eventos!
           </li>
         </ul>
       </HomeContainer>
