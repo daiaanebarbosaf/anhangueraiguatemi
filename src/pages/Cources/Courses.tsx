@@ -1,21 +1,30 @@
 import { ButtonText } from "../../components/ButtonText";
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 import { Container } from './styles';
+import { Header } from "../../components/Header/header";
+
 
 export function Courses() {
-    const navigate = useNavigate();
 
-    function handleBack(){
-        navigate("/");
-    }  
-      
     return(
         <Container>
-            <ButtonText
-                title="voltar"
-                onClick={handleBack}
-            />
+            <Header/>
+
+            <div className="daysOfCources">
+                <button className="buttonDay">
+                    <NavLink to="/primaryday" className="textButtonDay">
+                        22 de junho
+                    </NavLink>
+                </button>
+
+                <button className="buttonDay">
+                    <NavLink to="/secondday" className="textButtonDay">
+                        23 de junho
+                    </NavLink>
+                </button>
+            </div>
+
         </Container>
     )
 }

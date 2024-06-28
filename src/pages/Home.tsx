@@ -5,6 +5,7 @@ import { HomeContainer } from "../styles";
 export function Home() {
     return(
         <HomeContainer>
+            
             <NavLink to="https://www.instagram.com/anhanguera.iguatemi" target="_blank">
                 <img className="avatar" src={avatarAnhanguera} alt="Imagem do perfil do Instagram Anhanguera Iguatemi"/>
             </NavLink>
@@ -15,7 +16,9 @@ export function Home() {
             <ul>
                 <li>
                 <NavLink
-                    to="/courses" target="_blank">Cursos de Férias
+                    to="/courses"
+                >
+                    Cursos de Férias
                 </NavLink>
                 </li>
             </ul>
