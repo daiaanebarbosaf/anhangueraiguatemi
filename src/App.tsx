@@ -1,31 +1,23 @@
 import { ThemeProvider } from "styled-components";
 import { defaultTheme } from "./styles/themes/default";
 import { GlobalStyle } from './styles/global'
+import {BrowserRouter} from 'react-router-dom'
 
 import { HomeContainer } from "./styles";
-import avatarAnhanguera from './assets/anhanguera-iguatemi.png'
+
+import { Router } from "./Router";
 
 
  export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      
+      <BrowserRouter>
+        <Router/>
         <HomeContainer>
-        
-        <a href="https://www.instagram.com/anhanguera.iguatemi" target="_blank">
-          <img className="avatar" src={avatarAnhanguera} alt="Imagem do perfil do Instagram Anhanguera Iguatemi"/>
-        </a>
+        </HomeContainer>
+        <GlobalStyle />
+      </BrowserRouter>
 
-        <h1>Anhanguera Salvador Iguatemi</h1>
-        <p className="username">Eventos</p>
-
-        <ul>
-          <li>
-            Por enquanto não há eventos!
-          </li>
-        </ul>
-      </HomeContainer>
-      <GlobalStyle />
     </ThemeProvider>
 
   )
