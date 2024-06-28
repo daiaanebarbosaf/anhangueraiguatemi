@@ -1,3 +1,9 @@
+import { ButtonText } from "../components/ButtonText";
+
 export function Calendar() {
-    return <h1>Calendar</h1>
+    return (
+        <>
+            <ButtonText/>
+        </>
+    )
 }

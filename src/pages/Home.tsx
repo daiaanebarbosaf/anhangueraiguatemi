@@ -15,7 +15,7 @@ export function Home() {
             <ul>
                 <li>
                 <NavLink
-                    to="/courses" target="_blank">09 de Maio - Dia 03
+                    to="/courses" target="_blank">Cursos de Férias
                 </NavLink>
                 </li>
             </ul>

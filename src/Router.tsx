@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import { Home } from './pages/Home'
-import { Courses } from './pages/Courses'
+import { Courses } from './pages/Cources/Courses'
 import { Calendar } from './pages/Calendar'
 
 export function Router() {
