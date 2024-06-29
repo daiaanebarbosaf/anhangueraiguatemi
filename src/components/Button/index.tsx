@@ -1,6 +1,10 @@
 import { Container } from './style'
 
-export function Button({title, ...rest}) {
+export interface ButtonProps {
+    title: string;
+}
+
+export function Button({title, ...rest}:ButtonProps) {
     return(
         <Container 
             type="button"
