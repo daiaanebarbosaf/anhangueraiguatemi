@@ -12,12 +12,13 @@ import carol from "../../assets/teachers/carol.png"
 import tassia from "../../assets/teachers/tassia.png"
 import faixa from "../../assets/faixa-site.png"
 
+
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/swiper-bundle.css';
-
 
 export function Courses() {
 
@@ -57,7 +58,7 @@ export function Courses() {
                 <Section title="> Dia 03 - 24 de Junho - Quarta-feira">
                     <Swiper 
                         className='courseSectionHome'
-                        pagination navigation scrollbar
+                        navigation speed={500} slidesPerView={3} spaceBetween={400}
                     >
                         <SwiperSlide className='courseSectionHome'>
                             <Course

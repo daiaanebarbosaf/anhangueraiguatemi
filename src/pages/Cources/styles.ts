@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { DEVICE_BREAKPOINTS } from "../../styles/deviceBreakpoints";
 
 export const Container = styled.div`
     .imgCourses {
@@ -23,6 +24,7 @@ export const Container = styled.div`
         overflow-x: hidden;
 
         .coursesSectionHome {
+            width: 10px;
             display: flex;
             align-items: center;
             justify-content: start;
@@ -45,7 +47,7 @@ export const Container = styled.div`
         }
     }
 
-    @media (max-width: 728px){
+    @media (max-width: ${DEVICE_BREAKPOINTS.MD}){
         main {
             .courseSectionHome {
                 width: 99%;
