@@ -1,12 +1,12 @@
 import { Container } from "./style";
-import logo from '../../assets/logo.png'
+import logoHorizontal from '../../assets/horiz-negativa-anhanguera-iguatemi.png'
 import { NavLink } from "react-router-dom";
 
 export function Header() {
     return(
         <Container>
             <NavLink to="/">
-                <img src={logo} alt="" />
+                <img src={logoHorizontal} alt="" />
             </NavLink>
         </Container>
     )

@@ -7,13 +7,14 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
-    :focus {
-        outline: 0;
-        box-shadow: 0 0 0 2px ${props => props.theme.primaryColorDark};
+    body,
+    html {
+        width: 100%;
+        height: 100vh;
     }
 
+
     body {
-        background-color: ${props => props.theme.bgColor};
         color: ${props => props.theme.textColor};
         -webkit-smoothing: antialiased;
     }
@@ -23,6 +24,20 @@ export const GlobalStyle = createGlobalStyle`
         font-weight: 400;
         font-size: 1rem;
     }
+
+    a {
+        text-decoration: none;
+    }
+
+    button, a {
+        cursor: pointer;
+        transition: filter 0.2s;
+    }
+
+    button:hover, a:hover {
+        filter:brightness(0.9);
+    }
+      
 
     @media (max-width: 728px){
         font-size: 1rem;

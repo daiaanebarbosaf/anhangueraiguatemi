@@ -56,7 +56,7 @@ ul li a {
   align-items: center;
   justify-content: center;
   background: ${props => props.theme.primaryColor};
-  color: ${props => props.theme.bgColor};
+  color: ${props => props.theme.textColor};
   text-transform: uppercase;
   font-size: 0.8rem;
 
@@ -69,7 +69,12 @@ ul li a {
 }
 
 ul li a:hover {
-  background: ${props => props.theme.primaryColorDark};
+  background: rgba(171, 143, 223, 0.34);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.6px);
+  -webkit-backdrop-filter: blur(1.6px);
+  border: 1px solid rgba(171, 143, 223, 0.93);
 }
 
 @media (max-width: 728px){
