@@ -2,8 +2,17 @@ import { NavLink } from "react-router-dom";
 
 import { Container } from "./styles";
 
+export interface CourceProps {
+    image: string;
+    topic: string;
+    speaker: string;
+    timeAndDate: string;
+    modality: string;
+    url: string;
+}
 
-export function Course({image, topic, speaker, timeAndDate, modality, url}) {
+
+export function Course({image, topic, speaker, timeAndDate, modality, url}:CourceProps) {
     return(
         <Container >
             <main>
