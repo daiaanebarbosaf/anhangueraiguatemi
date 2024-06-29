@@ -12,6 +12,13 @@ import carol from "../../assets/teachers/carol.png"
 import tassia from "../../assets/teachers/tassia.png"
 import faixa from "../../assets/faixa-site.png"
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/swiper-bundle.css';
+
+
 export function Courses() {
 
     return(
@@ -48,8 +55,11 @@ export function Courses() {
                 </Section>
 
                 <Section title="> Dia 03 - 24 de Junho - Quarta-feira">
-                    <div className='coursesSectionHome'>
-                        <div className='courseSectionHome'>
+                    <Swiper 
+                        className='courseSectionHome'
+                        pagination navigation scrollbar
+                    >
+                        <SwiperSlide className='courseSectionHome'>
                             <Course
                                 image={angelo}
                                 topic="Inteligência Artificial"
@@ -59,20 +69,20 @@ export function Courses() {
                                 url="https://doity.com.br/anhangueracf-ads"
                             >
                             </Course>
-                        </div>
+                        </SwiperSlide>
+                        <SwiperSlide className='courseSectionHome'>
+                                <Course
+                                    image={sidnei}
+                                    topic="LIBRAS no Contexto Escolar 2ªEdição"
+                                    timeAndDate="19h"
+                                    speaker="Sidnei Lima"
+                                    modality="Presencial"
+                                    url="https://doity.com.br/anhangueracf-ped02"
+                                >
+                                </Course>
+                            </SwiperSlide>
 
-                        <div className='courseSectionHome'>
-                            <Course
-                                image={sidnei}
-                                topic="LIBRAS no Contexto Escolar 2ªEdição"
-                                timeAndDate="19h"
-                                speaker="Sidnei Lima"
-                                modality="Presencial"
-                                url="https://doity.com.br/anhangueracf-ped02"
-                            >
-                            </Course>
-                        </div>
-                    </div>
+                    </Swiper>
                 </Section>
 
                 <Section title="> Dia 04 - 25 de Junho - Quinta-feira">
