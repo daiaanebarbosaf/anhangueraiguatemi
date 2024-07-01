@@ -21,10 +21,7 @@ export const Container = styled.div`
 
         gap: 3rem;
 
-        overflow-x: hidden;
-
         .coursesSectionHome {
-            width: 10px;
             display: flex;
             align-items: center;
             justify-content: start;
@@ -47,10 +44,12 @@ export const Container = styled.div`
         }
     }
 
-    @media (max-width: ${DEVICE_BREAKPOINTS.MD}){
+    @media (min-width: 720px){
         main {
             .courseSectionHome {
-                width: 99%;
+                display: flex;
+                flex-direction: column;
+        
             }
         }
     }

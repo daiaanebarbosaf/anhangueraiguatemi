@@ -13,13 +13,6 @@ import tassia from "../../assets/teachers/tassia.png"
 import faixa from "../../assets/faixa-site.png"
 
 
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/swiper-bundle.css';
-
 export function Courses() {
 
     return(
@@ -56,11 +49,10 @@ export function Courses() {
                 </Section>
 
                 <Section title="> Dia 03 - 24 de Junho - Quarta-feira">
-                    <Swiper 
-                        className='courseSectionHome'
-                        navigation speed={500} slidesPerView={3} spaceBetween={400}
+                    <div 
+                        className='coursesSectionHome'
                     >
-                        <SwiperSlide className='courseSectionHome'>
+                        <div className='courseSectionHome'>
                             <Course
                                 image={angelo}
                                 topic="Inteligência Artificial"
@@ -70,8 +62,8 @@ export function Courses() {
                                 url="https://doity.com.br/anhangueracf-ads"
                             >
                             </Course>
-                        </SwiperSlide>
-                        <SwiperSlide className='courseSectionHome'>
+                        </div>
+                        <div className='courseSectionHome'>
                                 <Course
                                     image={sidnei}
                                     topic="LIBRAS no Contexto Escolar 2ªEdição"
@@ -81,9 +73,9 @@ export function Courses() {
                                     url="https://doity.com.br/anhangueracf-ped02"
                                 >
                                 </Course>
-                            </SwiperSlide>
+                            </div>
 
-                    </Swiper>
+                    </div>
                 </Section>
 
                 <Section title="> Dia 04 - 25 de Junho - Quinta-feira">
