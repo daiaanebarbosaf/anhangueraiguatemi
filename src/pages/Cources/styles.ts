@@ -25,7 +25,7 @@ export const Container = styled.div`
             align-items: center;
             justify-content: start;
 
-            flex-direction: column;
+            flex-direction: row;
 
             gap: 2rem;
         }
@@ -43,12 +43,11 @@ export const Container = styled.div`
         }
     }
 
-    @media (min-width: 720px){
+    @media (max-width: 720px){
         main {
-            .courseSectionHome {
+            .coursesSectionHome {
                 display: flex;
                 flex-direction: column;
-        
             }
         }
     }
