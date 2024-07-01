@@ -20,7 +20,7 @@ export function Courses() {
             <Header/>
             <img className='imgCourses' src={faixa} alt="" />
             <main>
-                <Section title="> Dia 01 - 22 de Junho - Segunda-feira">
+                <Section title="> Dia 01 - 22 de Julho - Segunda-feira">
                     <div className='courseSectionHome'>
                         <Course
                             image={sidnei}
@@ -34,7 +34,7 @@ export function Courses() {
                     </div>
                 </Section>
 
-                <Section title="> Dia 02 - 23 de Junho - Terça-feira">
+                <Section title="> Dia 02 - 23 de Julho - Terça-feira">
                     <div className='courseSectionHome'>
                         <Course
                             image={nelmo}
@@ -48,7 +48,7 @@ export function Courses() {
                     </div>
                 </Section>
 
-                <Section title="> Dia 03 - 24 de Junho - Quarta-feira">
+                <Section title="> Dia 03 - 24 de Julho - Quarta-feira">
                     <div 
                         className='coursesSectionHome'
                     >
@@ -78,7 +78,7 @@ export function Courses() {
                     </div>
                 </Section>
 
-                <Section title="> Dia 04 - 25 de Junho - Quinta-feira">
+                <Section title="> Dia 04 - 25 de Julho - Quinta-feira">
                     <div className='coursesSectionHome'>
                         <div className='courseSectionHome'>
                             <Course
