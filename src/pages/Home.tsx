@@ -20,6 +20,17 @@ export function Home() {
                 >
                     Cursos de Férias
                 </NavLink>
+                
+                </li>
+
+                <li>
+                <NavLink
+                    to="https://calendly.com/anhanguera-academico-iguatemi/coordenacao-academica?month=2024-07"
+                    target='_blank'
+                >
+                    Agende um Horário Com a Coordenação
+                </NavLink>
+                
                 </li>
             </ul>
           </HomeContainer>
