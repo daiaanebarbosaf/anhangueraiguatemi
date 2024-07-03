@@ -10,6 +10,9 @@ import angelo from "../../assets/teachers/angelo.png"
 import sergio from "../../assets/teachers/sergio.png"
 import carol from "../../assets/teachers/carol.png"
 import tassia from "../../assets/teachers/tassia.png"
+import alex from "../../assets/teachers/alex.png"
+import juli from "../../assets/teachers/juli-b.jpg"
+
 import faixa from "../../assets/faixa-site.png"
 
 
@@ -21,31 +24,59 @@ export function Courses() {
             <img className='imgCourses' src={faixa} alt="" />
             <main>
                 <Section title="> Dia 01 - 22 de Julho - Segunda-feira">
-                    <div className='courseSectionHome'>
-                        <Course
-                            image={sidnei}
-                            topic="LIBRAS no Contexto Escolar"
-                            timeAndDate="19h"
-                            speaker="Sidnei Lima"
-                            modality="Presencial"
-                            url="https://doity.com.br/anhangueracf-ped01"
-                        >
-                        </Course>
+                    <div className='coursesSectionHome'>
+                        <div className='courseSectionHome'>
+                            <Course
+                                image={sidnei}
+                                topic="LIBRAS no Contexto Escolar"
+                                timeAndDate="19h"
+                                speaker="Sidnei Lima"
+                                modality="Presencial"
+                                url="https://doity.com.br/anhangueracf-ped01"
+                            >
+                            </Course>
+                        </div>
+                        <div className='courseSectionHome'>
+                            <Course
+                                image={alex}
+                                topic="Como Fazer uma Excelente Entrevista e Estruturar um Bom Currículo"
+                                timeAndDate="19h"
+                                speaker="Alexandro Oliveira"
+                                modality="Presencial"
+                                url="https://doity.com.br/anhangueracf-gestao"
+                            >
+                            </Course>
+                        </div>
                     </div>
+
                 </Section>
 
                 <Section title="> Dia 02 - 23 de Julho - Terça-feira">
-                    <div className='courseSectionHome'>
-                        <Course
-                            image={nelmo}
-                            topic="Atividade Física e TEA"
-                            timeAndDate="19h"
-                            speaker="Nelmo de Jesus"
-                            modality="Presencial"
-                            url="https://doity.com.br/anhangueracf-edf"
-                        >
-                        </Course>
+                    <div className='coursesSectionHome'>
+                        <div className='courseSectionHome'>
+                            <Course
+                                image={nelmo}
+                                topic="Atividade Física e TEA"
+                                timeAndDate="19h"
+                                speaker="Nelmo de Jesus"
+                                modality="Presencial"
+                                url="https://doity.com.br/anhangueracf-edf"
+                            >
+                            </Course>
+                        </div>
+                        <div className='courseSectionHome'>
+                            <Course
+                                image={juli}
+                                topic="Orientações de Coleta de Material Biológico e Interpretação de Solicitações Médicas"
+                                timeAndDate="19h"
+                                speaker="Juliana Santiago"
+                                modality="Presencial"
+                                url="https://doity.com.br/anhangueracf-enf"
+                            >
+                            </Course>
                     </div>
+                    </div>
+
                 </Section>
 
                 <Section title="> Dia 03 - 24 de Julho - Quarta-feira">
