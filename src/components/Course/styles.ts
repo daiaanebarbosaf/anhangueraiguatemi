@@ -7,7 +7,7 @@ export const Container = styled.div`
     background-color: ${props => props.theme.bgColor};
 
     width: 20rem;
-    height: 25rem;
+    height: 27rem;
   
     border-radius: 8px;
 
@@ -24,8 +24,8 @@ export const Container = styled.div`
             gap: 0.8rem;
         
             img {
-                width: 70%;
-                height: 11rem;
+                width: 85%;
+                height: 13rem;
                 border-radius: 50%;
                 
                 object-fit: cover;
