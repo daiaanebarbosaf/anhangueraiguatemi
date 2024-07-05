@@ -5,7 +5,7 @@ import { Course } from "../../components/Course";
 import { Footer } from '../../components/Footer';
 
 import sidnei from "../../assets/teachers/sidnei.png"
-import nelmo from "../../assets/teachers/nelmo.png"
+import nelmo from "../../assets/teachers/edf.png"
 import angelo from "../../assets/teachers/angelo.png"
 import sergio from "../../assets/teachers/sergio.png"
 import carol from "../../assets/teachers/carol.png"
