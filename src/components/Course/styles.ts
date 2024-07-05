@@ -24,7 +24,7 @@ export const Container = styled.div`
             gap: 0.8rem;
         
             img {
-                width: 70%;
+                width: 80%;
                 height: 11rem;
                 border-radius: 50%;
                 
