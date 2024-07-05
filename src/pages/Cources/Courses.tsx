@@ -12,6 +12,7 @@ import carol from "../../assets/teachers/carol.png"
 import tassia from "../../assets/teachers/tassia.png"
 import alex from "../../assets/teachers/alex.png"
 import juli from "../../assets/teachers/juli-b.jpg"
+import catia from "../../assets/teachers/catia.png"
 
 import faixa from "../../assets/faixa-site.png"
 
@@ -104,7 +105,18 @@ export function Courses() {
                                     url="https://doity.com.br/anhangueracf-ped02"
                                 >
                                 </Course>
-                            </div>
+                        </div>
+                        <div className='courseSectionHome'>
+                                <Course
+                                    image={catia}
+                                    topic="Encontro Formativo Sistema de Justiça de Salvador-BA"
+                                    timeAndDate="9h às 17h"
+                                    speaker="Marcus Magalhães & Cátia Cordeiro"
+                                    modality="Presencial"
+                                    url="https://doity.com.br/anhangueracf-ser"
+                                >
+                                </Course>
+                        </div>
 
                     </div>
                 </Section>
