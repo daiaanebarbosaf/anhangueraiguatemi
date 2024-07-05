@@ -127,7 +127,7 @@ export function Courses() {
                             <Course
                                 image={sergio}
                                 topic="O Poder da Dieta Carnívora"
-                                timeAndDate="19h"
+                                timeAndDate="9h às 17h"
                                 speaker="Sérgio Leonardo"
                                 modality="Presencial"
                                 url="https://doity.com.br/anhangueracf-nutri"
