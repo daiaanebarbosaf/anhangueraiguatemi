@@ -31,7 +31,6 @@ export const Container = styled.div`
         }
 
         .courseSectionHome:hover {
-            transform: scale(1.1);
             opacity: 0.9;   
 
             background: rgba(171, 143, 223, 0.34);
