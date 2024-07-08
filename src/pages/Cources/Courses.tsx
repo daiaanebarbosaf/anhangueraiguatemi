@@ -117,7 +117,7 @@ export function Courses() {
                                 image={sergio}
                                 topic="O Poder da Dieta Carnívora"
                                 timeAndDate="19h"
-                                speaker="Sérgio Leonardo"
+                                speaker="Leonardo Neto & João Tavares"
                                 modality="Presencial"
                                 url="https://doity.com.br/anhangueracf-nutri"
                             >
