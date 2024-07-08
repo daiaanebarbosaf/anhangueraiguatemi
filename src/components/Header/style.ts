@@ -38,4 +38,15 @@ export const Container = styled.header`
 
         }
     }
+
+    @media (max-width: 728px){
+        padding: 1rem 2rem;
+        img {
+            width: 8rem;
+        }
+
+        ul li a {
+            font-size: 0.8rem;
+        }
+    }
 `
