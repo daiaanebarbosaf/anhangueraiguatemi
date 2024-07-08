@@ -8,6 +8,18 @@ export function Header() {
             <NavLink to="/">
                 <img src={logoHorizontal} alt="" />
             </NavLink>
+            <ul>
+                <li>
+                    <NavLink to="/">
+                        Início
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/courses">
+                        Cursos de Férias
+                    </NavLink>
+                </li>
+            </ul>
         </Container>
     )
 }

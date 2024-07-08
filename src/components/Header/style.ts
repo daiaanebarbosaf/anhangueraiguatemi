@@ -1,10 +1,13 @@
 import styled from "styled-components"
 
 export const Container = styled.header`
+    width: 100%;
     
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+
+    padding: 1rem 5rem;
 
     height: 5rem;
 
@@ -13,5 +16,37 @@ export const Container = styled.header`
     img {
         width: 15rem;
        
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+
+        transition: filter 0.2s;
+        list-style: none;
+
+        li a {
+            color: ${props => props.theme.bgColor_100};
+            text-decoration: none;
+        }
+
+        li a:hover {
+            color: ${props => props.theme.bgColor_100};
+            text-decoration: underline;
+
+        }
+    }
+
+    @media (max-width: 728px){
+        padding: 1rem 2rem;
+        img {
+            width: 8rem;
+        }
+
+        ul li a {
+            font-size: 0.8rem;
+        }
     }
 `
