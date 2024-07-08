@@ -21,6 +21,7 @@ export function Courses() {
     return(
         <Container>
             <Header/>
+            
             <img className='imgCourses' src={faixa} alt="" />
             <main>
                 <Section title="> Dia 01 - 22 de Julho - Segunda-feira">
