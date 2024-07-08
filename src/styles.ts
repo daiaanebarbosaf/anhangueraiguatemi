@@ -1,17 +1,19 @@
 import styled from 'styled-components'
 
-export const HomeContainer = styled.main`
+export const HomeContainer = styled.div`
+  width: 100%;
 
-  text-align: center;
+  main {
+    text-align: center;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-  padding: 5rem;
-  flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  .avatar {
+    padding: 5rem;
+    flex-direction: column;
+
+    .avatar {
     width: 100%;
     border-radius: 50%;
     width: 100px;
@@ -29,19 +31,9 @@ img.avatar:hover {
 h1 {
   font-size: 2rem;
   margin-top: 1.5rem;
+  margin-bottom: 2rem;
   cursor: pointer;
  
-}
-
-.username {
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 400;
-  opacity: 0.8;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-
-  margin-top: 1rem;
-  margin-bottom: 2rem;
 }
 
 ul {
@@ -68,14 +60,7 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
-  background: rgba(171, 143, 223, 0.34);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(1.6px);
-  -webkit-backdrop-filter: blur(1.6px);
-  border: 1px solid rgba(171, 143, 223, 0.93);
-}
+
 
 @media (max-width: 728px){
 
@@ -90,4 +75,7 @@ ul li a:hover {
   }
   
 }
+  }
+
+
 `;
