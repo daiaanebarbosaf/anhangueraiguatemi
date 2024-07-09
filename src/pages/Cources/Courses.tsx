@@ -12,8 +12,10 @@ import carol from "../../assets/teachers/carol.png"
 import tassia from "../../assets/teachers/tassia.png"
 import alex from "../../assets/teachers/alex.png"
 import juli from "../../assets/teachers/juli-b.jpg"
+import ser from "../../assets/teachers/ser.png"
 
 import faixa from "../../assets/faixa-site.png"
+
 
 
 export function Courses() {
@@ -75,7 +77,18 @@ export function Courses() {
                                 url="https://doity.com.br/anhangueracf-enf"
                             >
                             </Course>
-                    </div>
+                        </div>
+                        <div className='courseSectionHome'>
+                            <Course
+                                image={faixa}
+                                topic="Gestão do Estresse e Qualidade de Vida"
+                                timeAndDate="19h"
+                                speaker="Iracema Lemos"
+                                modality="Presencial"
+                                url="https://doity.com.br/anhangueracf-ges"
+                            >
+                            </Course>
+                        </div>
                     </div>
 
                 </Section>
@@ -95,7 +108,7 @@ export function Courses() {
                             >
                             </Course>
                         </div>
-                        <div className='courseSectionHome'>
+                            <div className='courseSectionHome'>
                                 <Course
                                     image={sidnei}
                                     topic="LIBRAS no Contexto Escolar 2ªEdição"
@@ -103,6 +116,17 @@ export function Courses() {
                                     speaker="Sidnei Lima"
                                     modality="Presencial"
                                     url="https://doity.com.br/anhangueracf-ped02"
+                                >
+                                </Course>
+                            </div>
+                            <div className='courseSectionHome'>
+                                <Course
+                                    image={ser}
+                                    topic="Encontro Formativo Sistema de Justiça de Salvador-BA"
+                                    timeAndDate="19h"
+                                    speaker="Marcus Magalhães e Cátia Cordeiro"
+                                    modality="Presencial"
+                                    url="https://doity.com.br/anhangueracf-ser"
                                 >
                                 </Course>
                             </div>
