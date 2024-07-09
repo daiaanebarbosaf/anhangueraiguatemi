@@ -1,35 +1,42 @@
-import { NavLink } from 'react-router-dom';
 import { HomeContainer } from "../styles";
 import { Header } from '../components/Header/header';
+
+import capa from "../assets/capa.png"
+import coord from "../assets/coord.png"
+
+import { Cards } from '../components/Cards';
 
 export function Home() {
     return(
         <HomeContainer>
             <Header />
             <main>
-                
-                <h1>Eventos e Cursos</h1>
+                <div>
+                    <h1>Clique e saiba mais:</h1>
+                </div>
+            
+                <div className="cards">
+                    <div className="card">
+                        <Cards
+                            image={capa}
+                            topic="Cursos de Férias"
+                            url="/courses"
+                        >
 
-                <ul>
-                    <li>
-                    <NavLink
-                        to="/courses"
-                    >
-                        Cursos de Férias
-                    </NavLink>
-                    
-                    </li>
+                        </Cards>
+                    </div>
+                    <div className="card">
+                        <Cards
+                            image={coord}
+                            topic="Agende um Horário Com a Coordenação"
+                            url="https://calendly.com/anhanguera-academico-iguatemi/coordenacao-academica?month=2024-07"
+                        >
 
-                    <li>
-                    <NavLink
-                        to="https://calendly.com/anhanguera-academico-iguatemi/coordenacao-academica?month=2024-07"
-                        target='_blank'
-                    >
-                        Agende um Horário Com a Coordenação
-                    </NavLink>
-                    
-                    </li>
-                </ul>
+                        </Cards>
+                    </div>
+
+                </div>
+
             </main>
           </HomeContainer>
     )
