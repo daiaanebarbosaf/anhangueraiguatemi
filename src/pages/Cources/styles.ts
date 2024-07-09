@@ -46,8 +46,12 @@ export const Container = styled.div`
 
     @media (max-width: 720px){
         main {
+            display: flex;
+            align-items: center;
             .coursesSectionHome {
                 display: flex;
+                align-items: center;
+                
                 flex-direction: column;
             }
         }
