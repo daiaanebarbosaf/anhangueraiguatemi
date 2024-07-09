@@ -11,7 +11,7 @@ export const Container = styled.div`
     main {
         .cards {
             width: 100%;
-            height: 50%;
+            height: 15rem;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -73,7 +73,7 @@ export const Container = styled.div`
                 display: flex;
                 flex-direction: column;
 
-                width: 15rem;
+                width: 16rem;
                 height: 12rem;
 
                 margin: 1rem;

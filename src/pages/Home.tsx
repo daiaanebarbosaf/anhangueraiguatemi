@@ -12,7 +12,7 @@ export function Home() {
             <Header />
             <main>
                 <div>
-                    <h1>Clique e sabiba mais:</h1>
+                    <h1>Clique e saiba mais:</h1>
                 </div>
             
                 <div className="cards">
