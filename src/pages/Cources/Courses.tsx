@@ -153,7 +153,7 @@ export function Courses() {
                                 image={tassia}
                                 topic="Acessibilidade nas Edificações"
                                 timeAndDate="19h"
-                                speaker="Caroline Oliveira"
+                                speaker="Tassia Pereira"
                                 modality="Presencial"
                                 url="https://doity.com.br/anhangueracf-arq"
                             >
