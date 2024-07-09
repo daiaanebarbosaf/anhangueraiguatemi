@@ -13,6 +13,7 @@ import tassia from "../../assets/teachers/tassia.png"
 import alex from "../../assets/teachers/alex.png"
 import juli from "../../assets/teachers/juli-b.jpg"
 import ser from "../../assets/teachers/ser.png"
+import edson from "../../assets/teachers/edson.png"
 
 import faixa from "../../assets/faixa-site.png"
 
@@ -108,29 +109,39 @@ export function Courses() {
                             >
                             </Course>
                         </div>
-                            <div className='courseSectionHome'>
-                                <Course
-                                    image={sidnei}
-                                    topic="LIBRAS no Contexto Escolar 2ªEdição"
-                                    timeAndDate="19h"
-                                    speaker="Sidnei Lima"
-                                    modality="Presencial"
-                                    url="https://doity.com.br/anhangueracf-ped02"
-                                >
+                        <div className='courseSectionHome'>
+                            <Course
+                                image={sidnei}
+                                topic="LIBRAS no Contexto Escolar 2ªEdição"
+                                timeAndDate="19h"
+                                speaker="Sidnei Lima"
+                                modality="Presencial"
+                                url="https://doity.com.br/anhangueracf-ped02"
+                            >
+                            </Course>
+                        </div>
+                        <div className='courseSectionHome'>
+                            <Course
+                                image={ser}
+                                topic="Encontro Formativo Sistema de Justiça de Salvador-BA"
+                                timeAndDate="19h"
+                                speaker="Marcus Magalhães e Cátia Cordeiro"
+                                modality="Presencial"
+                                url="https://doity.com.br/anhangueracf-ser"
+                            >
                                 </Course>
-                            </div>
-                            <div className='courseSectionHome'>
-                                <Course
-                                    image={ser}
-                                    topic="Encontro Formativo Sistema de Justiça de Salvador-BA"
-                                    timeAndDate="19h"
-                                    speaker="Marcus Magalhães e Cátia Cordeiro"
-                                    modality="Presencial"
-                                    url="https://doity.com.br/anhangueracf-ser"
-                                >
-                                    </Course>
-                            </div>
-
+                        </div>
+                        <div className='courseSectionHome'>
+                            <Course
+                                image={edson}
+                                topic="Suporte Básico de Vida"
+                                timeAndDate="19h"
+                                speaker="Edson Gomes"
+                                modality="Presencial"
+                                url="https://doity.com.br/anhangueracf-enfermagem"
+                            >
+                                </Course>
+                        </div>
                     </div>
                 </Section>
 
