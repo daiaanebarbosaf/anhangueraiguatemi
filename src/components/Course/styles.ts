@@ -56,5 +56,22 @@ export const Container = styled.div`
             }
     }
 
-    }   
+    }
+    
+    @media (max-width: 720px){
+        width: 20rem;
+        height: 25rem;
+
+        main {
+            .course {
+                img {
+                    width: 85%;
+                    height: 12rem;
+                    border-radius: 50%;
+                    
+                    object-fit: cover;
+                }
+            }
+        }
+    }
 `;
