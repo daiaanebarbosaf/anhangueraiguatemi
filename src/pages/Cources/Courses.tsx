@@ -125,7 +125,10 @@ export function Courses() {
                                     topic="Encontro Formativo Sistema de Justiça de Salvador-BA"
                                     timeAndDate="19h"
                                     speaker="Marcus Magalhães e Cátia Cordeiro"
+                                    modality="Presencial"
                                     url="https://doity.com.br/anhangueracf-ser"
+                                >
+                                </Course>
                             </div>
 
                     </div>
