@@ -6,8 +6,8 @@ export const Container = styled.div`
 
     background-color: ${props => props.theme.bgColor};
 
-    width: 20rem;
-    height: 27rem;
+    width: 15rem;
+    height: 24rem;
   
     border-radius: 8px;
 
@@ -25,7 +25,7 @@ export const Container = styled.div`
         
             img {
                 width: 85%;
-                height: 13rem;
+                height: 9rem;
                 border-radius: 50%;
                 
                 object-fit: cover;
@@ -43,11 +43,12 @@ export const Container = styled.div`
 
                 h2 {
                     font-weight: bold;
-                    font-size: 1.2rem;
+                    font-size: 0.9rem;
                     color: ${props => props.theme.primaryColor};
                 }
 
                 p {
+                    font-size: 0.8rem;
                     span {
                         font-weight: bold;
                     }

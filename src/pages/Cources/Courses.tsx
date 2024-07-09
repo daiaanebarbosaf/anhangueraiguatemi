@@ -14,6 +14,7 @@ import alex from "../../assets/teachers/alex.png"
 import juli from "../../assets/teachers/juli-b.jpg"
 import ser from "../../assets/teachers/ser.png"
 import edson from "../../assets/teachers/edson.png"
+import enfermagem from "../../assets/teachers/enfermagem.png"
 
 import faixa from "../../assets/faixa-site.png"
 
@@ -139,6 +140,17 @@ export function Courses() {
                                 speaker="Edson Gomes"
                                 modality="Presencial"
                                 url="https://doity.com.br/anhangueracf-enfermagem"
+                            >
+                                </Course>
+                        </div>
+                        <div className='courseSectionHome'>
+                            <Course
+                                image={enfermagem}
+                                topic="Mesa Redonda: Explorando as Possibilidades: Descobrindo sua Vocação Profissional"
+                                timeAndDate="19h"
+                                speaker="Cintia Fraga, Taine Daltro & Wesley Ramos"
+                                modality="Presencial"
+                                url="https://doity.com.br/anhangueracf-efermagem02"
                             >
                                 </Course>
                         </div>
