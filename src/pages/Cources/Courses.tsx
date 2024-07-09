@@ -127,7 +127,7 @@ export function Courses() {
                         <div className='courseSectionHome'>
                             <Course
                                 image={carol}
-                                topic="Saúde e Segurança do Trabalho"
+                                topic="Saúde e Segurança do Trabalho NR 32 (Voltado para os Profissionais da Saúde)"
                                 timeAndDate="19h"
                                 speaker="Caroline Oliveira"
                                 modality="Presencial"
