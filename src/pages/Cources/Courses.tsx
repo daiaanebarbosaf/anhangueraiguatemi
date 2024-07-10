@@ -14,9 +14,11 @@ import alex from "../../assets/teachers/alex.png"
 import juli from "../../assets/teachers/juli.png"
 import ser from "../../assets/teachers/ser.png"
 import edson from "../../assets/teachers/edson.png"
+import joice from "../../assets/teachers/joice.png"
 import enfermagem from "../../assets/teachers/enfermagem.png"
 
 import faixa from "../../assets/faixa-site.png"
+
 
 
 
@@ -191,6 +193,17 @@ export function Courses() {
                                 speaker="Tassia Pereira"
                                 modality="Presencial"
                                 url="https://doity.com.br/anhangueracf-arq"
+                            >
+                            </Course>
+                        </div>
+                        <div className='courseSectionHome'>
+                            <Course
+                                image={joice}
+                                topic="Ferramentas Básicas para uma Gestão Eficaz"
+                                timeAndDate="19h"
+                                speaker="Joice Santos"
+                                modality="Online"
+                                url="https://doity.com.br/anhangueracf-enf-04"
                             >
                             </Course>
                         </div>
