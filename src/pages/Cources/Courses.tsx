@@ -5,6 +5,7 @@ import { Course } from "../../components/Course";
 import { Footer } from '../../components/Footer';
 
 import sidnei from "../../assets/teachers/sidnei.png"
+import sidneiCard from "../../assets/cources/sidnei-card.png"
 import nelmo from "../../assets/teachers/edf.png"
 import angelo from "../../assets/teachers/angelo.png"
 import sergio from "../../assets/teachers/sergio.png"
@@ -14,9 +15,11 @@ import alex from "../../assets/teachers/alex.png"
 import juli from "../../assets/teachers/juli.png"
 import ser from "../../assets/teachers/ser.png"
 import edson from "../../assets/teachers/edson.png"
+import joice from "../../assets/teachers/joice.png"
 import enfermagem from "../../assets/teachers/enfermagem.png"
 
 import faixa from "../../assets/faixa-site.png"
+import { Cards } from '../../components/Cards';
 
 
 
@@ -28,6 +31,20 @@ export function Courses() {
             
             <img className='imgCourses' src={faixa} alt="" />
             <main>
+                <Section title="> Dia 01 - 22 de Julho - Segunda-feira">
+                    <div className="cardsSectionHome">
+                        <div className="cardSectionHome">
+                            <Cards
+                                image={sidneiCard}
+                                topic="Cursos de Férias"
+                                url="/courses"
+                            >
+
+                            </Cards>
+                        </div>
+
+                    </div>
+                </Section>
                 <Section title="> Dia 01 - 22 de Julho - Segunda-feira">
                     <div className='coursesSectionHome'>
                         <div className='courseSectionHome'>
@@ -191,6 +208,17 @@ export function Courses() {
                                 speaker="Tassia Pereira"
                                 modality="Presencial"
                                 url="https://doity.com.br/anhangueracf-arq"
+                            >
+                            </Course>
+                        </div>
+                        <div className='courseSectionHome'>
+                            <Course
+                                image={joice}
+                                topic="Ferramentas Básicas para uma Gestão Eficaz"
+                                timeAndDate="19h"
+                                speaker="Joice Santos"
+                                modality="Online"
+                                url="https://doity.com.br/anhangueracf-enf-04"
                             >
                             </Course>
                         </div>
