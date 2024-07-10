@@ -22,6 +22,18 @@ export const Container = styled.div`
 
         gap: 3rem;
 
+        .cardsSectionHome{
+            
+        }
+        
+        .cardSectionHome{
+            width: 30rem;
+            height: 30rem;
+            img {
+                width: 30rem;
+            }
+        }
+
         .coursesSectionHome {
             display: flex;
             align-items: center;
