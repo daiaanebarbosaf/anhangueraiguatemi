@@ -39,9 +39,16 @@ export const Container = styled.div`
             align-items: center;
             justify-content: start;
 
+            width: 100%;
+            height: 25rem;
+
             flex-direction: row;
 
             gap: 2rem;
+
+            img {
+                width: 100%;
+            }
         }
 
         .courseSectionHome:hover {
