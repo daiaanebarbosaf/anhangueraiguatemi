@@ -4,12 +4,10 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
 
-    background-color: ${props => props.theme.bgColor};
-
-    width: 15rem;
-    height: 24rem;
+    width: 100%;
+    height: 50rem;
   
-    border-radius: 8px;
+    
 
     main {
         .course { 
@@ -24,11 +22,10 @@ export const Container = styled.div`
             gap: 0.8rem;
         
             img {
-                width: 85%;
-                height: 9rem;
-                border-radius: 50%;
+                width: 100%;
+                height: 100%;
                 
-                object-fit: cover;
+                border-radius: 8px;
             }
 
             .description {
@@ -65,11 +62,7 @@ export const Container = styled.div`
         main {
             .course {
                 img {
-                    width: 85%;
-                    height: 12rem;
-                    border-radius: 50%;
-                    
-                    object-fit: cover;
+
                 }
             }
         }
