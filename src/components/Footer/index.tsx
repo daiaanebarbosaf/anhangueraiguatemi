@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 export function Footer() {
     return(
         <Container>
-            <main>
+            <div className="containerFooter">
                 <img  id="logoFooter" src={logoFooter} alt="Logo do footer" />
                 <NavLink
                     className="footerText"
@@ -14,7 +14,7 @@ export function Footer() {
                 >
                     © 2024 - Feito por <span>Daiane Farias</span> Todos os direitos reservados.
                 </NavLink>
-            </main>
+            </div>
         </Container>
     )
 }
