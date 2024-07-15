@@ -5,12 +5,13 @@ import capa from "../assets/capa.png"
 import coord from "../assets/coord.png"
 
 import { Cards } from '../components/Cards';
+import { Footer } from "../components/Footer";
 
 export function Home() {
     return(
         <HomeContainer>
             <Header />
-            <main>
+            <div className="container">
                 <div>
                     <h1>Clique e saiba mais:</h1>
                 </div>
@@ -37,7 +38,9 @@ export function Home() {
 
                 </div>
 
-            </main>
-          </HomeContainer>
+            </div>
+
+            <Footer/>
+        </HomeContainer>
     )
 }

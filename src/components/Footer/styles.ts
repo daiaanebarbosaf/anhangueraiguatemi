@@ -4,18 +4,15 @@ export const Container = styled.header`
     width: 100%;
     height: 100%;
 
-    main {
+    .containerFooter {
         display: flex;
         align-items: center;
         justify-content: space-between;
 
-        flex-direction: row;
+  
 
-        padding-block: 2rem;
-        position:absolute;
+        padding: 2rem;
         background-color: ${props => props.theme.primaryColor};
-
-        font-size: 100;
         
 
         img {
@@ -34,12 +31,16 @@ export const Container = styled.header`
     }
 
     @media (max-width: 728px){
-        main {
+        .containerFooter {
             font-size: 0.8rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            padding: 2rem;
 
             img {
                 margin-left: -1rem;
-                margin-bottom: -2rem;
             }
 
         }
