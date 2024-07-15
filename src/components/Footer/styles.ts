@@ -32,6 +32,18 @@ export const Container = styled.header`
             
         }
     }
+
+    @media (max-width: 728px){
+        main {
+            font-size: 0.8rem;
+
+            img {
+                margin-left: -1rem;
+                margin-bottom: -2rem;
+            }
+
+        }
+    }
     
 
 `
