@@ -10,12 +10,6 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 
 export function Courses() {
 
-    const dataDay22 = [
-        {
-            id: '1', image: '/cources/libras01.png', url: 'https://doity.com.br/anhangueracf-ped01'
-        },
-    ]
-
     const dataDay23 = [
         {
             id: '2', image: '/cources/tea.png', url: 'https://doity.com.br/anhangueracf-edf'
@@ -68,30 +62,6 @@ export function Courses() {
             
             <img className='imgCourses' src={faixa} alt="" />
             <main>
-            <Section title="> Dia 01 - 22 de Julho - Segunda-feira:">
-                <Swiper 
-                    className='container'
-                        slidesPerView={1}
-                        pagination={{clickable: true}}
-                        navigation
-                    >
-                        {
-                            dataDay22.map((item) => (
-                                <SwiperSlide 
-                                    className='slide-item'
-                                    key={item.id}
-                                >
-                                    <Course
-                                        image={item.image}
-                                        url={item.url}
-                                    >
-                                    </Course>
-                                </SwiperSlide>
-                            ))
-                        }
- 
-                    </Swiper>
-                </Section>
 
                 <Section title="> Dia 02 - 23 de Julho - Terça-feira:">
 
