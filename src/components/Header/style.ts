@@ -33,10 +33,10 @@ export const Container = styled.header`
         }
 
         li a:hover {
-            color: ${props => props.theme.bgColor_100};
-            text-decoration: underline;
-
+            border-bottom: 2px solid ${props => props.theme.bgColor_100};
+            padding-block: 1.8rem;
         }
+
     }
 
     @media (max-width: 728px){
