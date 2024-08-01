@@ -1,7 +1,6 @@
 import { HomeContainer } from "../styles";
 import { Header } from '../components/Header/header';
 
-import capa from "../assets/capa.png"
 import coord from "../assets/coord.png"
 
 import { Cards } from '../components/Cards';
@@ -17,15 +16,6 @@ export function Home() {
                 </div>
             
                 <div className="cards">
-                    <div className="card">
-                        <Cards
-                            image={capa}
-                            topic="Cursos de Férias"
-                            url="/courses"
-                        >
-
-                        </Cards>
-                    </div>
                     <div className="card">
                         <Cards
                             image={coord}
