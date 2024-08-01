@@ -14,11 +14,6 @@ export function Header() {
                         Início
                     </NavLink>
                 </li>
-                <li>
-                    <NavLink to="/courses">
-                        Cursos de Férias
-                    </NavLink>
-                </li>
             </ul>
         </Container>
     )
