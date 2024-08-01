@@ -13,12 +13,12 @@ export function Home() {
     const dataBanners = [
         {
             id: '1', 
-            image: '/src/assets/banners/volta-as-aulas.png', 
+            image: '/banners/volta-as-aulas.png', 
             url: 'https://login.kroton.com.br/'
         },
         {
             id: '2', 
-            image: '/src/assets/banners/rematricula.png', 
+            image: '/banners/rematricula.png', 
             url: ''
         }
     ]
