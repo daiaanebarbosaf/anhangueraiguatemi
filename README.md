@@ -1,42 +1,27 @@
-<h1 align="center"">
-  Anhaguera Salvador Iguatemi
-</h1>
+<h1 align="center"> Anhanguera Noticias </h1>
+<p align="center">
+
 
 <p align="center">
-  <a href="#project">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#license">Licença</a>
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
+![prewiew](/assets/readme/prewiew.PNG)
 
-![prewiew](./.github/home.PNG)
+## 🚀 Tecnologias
 
-<h2 id="project">📁 Projeto</h2>
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-O Anhanguera Salvador Iguatemi é um solução para juntar todos os links das palestras que criamos de forma que facilite o acesso dos alunos aos eventos que acontecem na faculdade e em breve serão implementadas mais soluções.
+- HTML
+- CSS
+- JavaScript
 
-<h2 id="technologies">💻 Tecnologias</h2>
+## 💻 Projeto
 
-Este projeto foi desenvolvido com as seguintes tecnologias:
+Essa projeto é a solução para uma boa comunicação entre os alunos e a faculdade.
 
-- ReactJS
-- Styled Components
-- TypeScript
-- ViteJS
+---
 
-<h2 id="license">📝 Licença</h2>
-
-Este projeto está sob a licença MIT.
-
-<div style="display: flex;">
-  <a href="https://www.linkedin.com/in/daiaanebarbosaf/" target="_blank">
-  <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="margin-right: 2vw" target="_blank"></a>
-  <a href="mailto:daiaanebarbosaf@gmail.com">
-  <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" style="margin-right: 2vw" target="_blank">
-  </a>
-  <a href="https://discord.com/users/daiaanebarbosaf#9926" target="_blank">
-  <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" style="margin-right: 2vw" target="_blank"></a>
-</div>
+Feito por Daiane Farias 👋  [Me acompanhe nas redes sociais!](https://daiaanebarbosaf.github.io/rocketlinks/)
