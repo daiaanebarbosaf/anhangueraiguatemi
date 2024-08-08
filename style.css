@@ -206,7 +206,6 @@ body.menu-expanded > :not(nav) {
     visibility: hidden;
 }
 
-
 .menu, 
 .close-menu,
 body.menu-expanded .open-menu {
@@ -438,6 +437,74 @@ body.menu-expanded button path {
 
 #services .card h3 {
     margin-block: 1.6rem;
+}
+
+/*============CONGIGURAÇÕES DAS ORIENTAÇÕES============*/
+
+#guidelines section {
+
+    padding-block: -1rem;
+    padding-inline: 1rem;
+}
+
+#guidelines div ul {
+      display: block;  
+      width: 100%;
+      list-style: none;
+      padding-left: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+    
+}
+
+#guidelines .nav {
+    width: 100%;
+    background: var(--brand-light);
+    border-radius: 8px;
+    color: #f0f0f0;
+}
+
+#guidelines .nav a {
+    width: 100%;
+    display: block;
+    padding: 0 1rem;
+    line-height: inherit;
+    cursor: pointer;
+
+    text-decoration: none;
+}
+
+#guidelines .nav__menu {
+    line-height: 5rem;
+    font-weight: 700;
+}
+
+#guidelines .nav__menu-item {
+    display: inline-block;
+    position: relative;
+}
+
+#guidelines .nav__menu-item:hover {
+    background-color: var(--brand-beige);
+    
+}
+
+#guidelines .nav__menu-item:hover .nav__submenu {
+    
+    display: block;
+}
+
+#guidelines .nav__submenu {
+    font-weight: 300;
+    text-transform: none;
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: var(--brand-beige);
+}
+
+#guidelines .nav__submenu-item:hover {
+    background: rgba(0, 0, 0, 0.1);
 }
 
 /*============CONGIGURAÇÕES DO NEWS============*/
@@ -857,6 +924,13 @@ footer a {
     #services .card {
         width: 30%;
         flex-grow: 1;
+    }
+
+    /*==========CONFIGURAÇÕES DO Orientações==========*/
+
+
+    #guidelines div ul {
+
     }
 
     /*==========CONFIGURAÇÕES DO NEWS==========*/
