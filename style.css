@@ -8,6 +8,7 @@
 :root {
 
     --hue: 23;
+    --primary-color-light: #f07b02;
     --primary-color: hsl(var(--hue), 100%, 50%);
     --headline: hsl(210,11%, 15%);
     --paragraph: hsl(210, 9%, 31%);
@@ -106,8 +107,8 @@ section .content p {
     border: none;
     border-radius: 4rem;
 
-    margin-bottom: 6rem;
-
+  
+    margin-bottom: 2rem;
     padding: 1.6rem 3.2rem;
     width: fit-content;
 
@@ -127,7 +128,7 @@ section .content p {
 }    
 
 .button:hover {
-    background-color: var(--brand-dark);
+    background-color: var(--primary-color-light);
 }
 
 .social-links {
@@ -507,6 +508,67 @@ body.menu-expanded button path {
     background: rgba(0, 0, 0, 0.1);
 }
 
+/*==========CONFIGURAÇÕES DO CLASSES==========*/
+
+#classes .week-classes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 0.5rem;
+
+    margin-top: 2rem;
+}
+
+#classes .button-week a {
+    color: var(--bg-light);
+    text-decoration: none;
+
+    padding: 0rem;
+    margin: 0;
+}
+
+
+/*==========CONFIGURAÇÕES DO DAYS==========*/
+
+#days header {
+    margin-bottom: 2rem;
+}
+
+#days .courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+    
+}
+
+#days .dropdown-button {
+
+    position: relative;
+    width: 100%;
+    text-align: left;
+
+    background-color: var(--primary-color-light);
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    border: none;
+}
+
+#days .dropdown-item {
+    font-size: 1rem;
+    width: 30rem;
+}
+
+
+  
+
+  
+  
 /*============CONGIGURAÇÕES DO NEWS============*/
 
 #news {
@@ -926,13 +988,8 @@ footer a {
         flex-grow: 1;
     }
 
-    /*==========CONFIGURAÇÕES DO Orientações==========*/
 
-
-    #guidelines div ul {
-
-    }
-
+  
     /*==========CONFIGURAÇÕES DO NEWS==========*/
 
     #news .wrapper {
@@ -1004,6 +1061,10 @@ footer a {
 
     #contact h2 {
         width: 40.4rem;
+    }
+
+    #contact .col-b {
+        margin-top: 3rem;
     }
 
     /*==========CONFIGURAÇÕES DO FOOTER==========*/
