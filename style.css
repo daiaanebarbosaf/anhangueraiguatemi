@@ -108,7 +108,7 @@ section .content p {
     border-radius: 4rem;
 
   
-
+    margin-bottom: 2rem;
     padding: 1.6rem 3.2rem;
     width: fit-content;
 
@@ -1061,6 +1061,10 @@ footer a {
 
     #contact h2 {
         width: 40.4rem;
+    }
+
+    #contact .col-b {
+        margin-top: 3rem;
     }
 
     /*==========CONFIGURAÇÕES DO FOOTER==========*/
