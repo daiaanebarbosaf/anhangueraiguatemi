@@ -600,6 +600,10 @@ body.menu-expanded button path {
 
 /*============CONGIGURAÇÕES DO LIVES============*/
 
+#lives .container {
+    margin-top: 4rem;
+}
+
 #lives .cards {
     
     display: flex;
@@ -675,6 +679,11 @@ body.menu-expanded button path {
     display: flex;
     align-items: center;
     gap: 0.8rem;
+}
+
+#contact a {
+    text-decoration: none;
+    color: var(--bg-light);
 }
 
 /*============CONGIGURAÇÕES DO FOOTER============*/
