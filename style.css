@@ -688,6 +688,14 @@ body.menu-expanded button path {
 
 /*============CONGIGURAÇÕES DO FOOTER============*/
 
+footer .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
 footer {
     background-color: var(--primary-color);
     padding-block: 6rem;
@@ -717,7 +725,6 @@ footer p {
     margin-bottom: 3.2rem;
 }
 
-
 footer .social-links {
     justify-content: flex-start;
 }
@@ -725,8 +732,14 @@ footer .social-links {
 
 footer a {
     color: var(--brand-beige);
-    text-decoration: none;
+    font-weight: 900;
 }
+
+footer a:hover {
+    color: var(--brand-beige);
+    font-weight: 900;
+}
+
 
 /*=====CONGIGURAÇÕES DAS PAGINAS DE NEWS=========*/
 
@@ -1141,6 +1154,7 @@ footer a {
     footer .wrapper {
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 'A B';
+        flex-direction: row;
     }
 
     footer .col-a {
