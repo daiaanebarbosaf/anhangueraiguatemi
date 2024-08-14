@@ -34,9 +34,9 @@ html,
 body {
      width: 100%;
     height: 100%;
-    }
+}
 
-body{
+body {
     font-family: 'DM Sans';
     font-size: 1.6rem;
     text-align: center;
@@ -44,11 +44,15 @@ body{
     overflow: overlay;
 
     background-color: var(--bg-light);
+
+    
 }
 
-.wrapper{
+.wrapper {
     width: min(30rem, 100%);
     margin-inline: auto;
+
+    text-align: center;
     
 }
 
@@ -346,6 +350,11 @@ body.menu-expanded button path {
     margin-bottom: 3.3rem;
 }
 
+#home a {
+    text-decoration: none;
+    color: var(--bg-light);
+}
+
 /*configurações da imagem da moça*/
 
 #home img {
@@ -563,11 +572,6 @@ body.menu-expanded button path {
     font-size: 1rem;
     width: 30rem;
 }
-
-
-  
-
-  
   
 /*============CONGIGURAÇÕES DO NEWS============*/
 
@@ -594,6 +598,52 @@ body.menu-expanded button path {
     
 }
 
+/*============CONGIGURAÇÕES DO LIVES============*/
+
+#lives .container {
+    margin-top: 4rem;
+}
+
+#lives .cards {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 2rem;
+}
+
+#lives .card {
+    background-color: var(--brand-beige);
+    border-radius: 8px;
+}
+
+#lives .card:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+#lives iframe {
+    width: 100%;
+}
+
+#lives a {
+    width: 40%;
+    background-color: var(--primary-color);
+    border: none;
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lives a:hover {
+    background-color: var(--primary-color-light);
+    transform: scale(1.1);
+    opacity: 0.9;
+}
 /*============CONGIGURAÇÕES DO EVENTS============*/
 #events .content {
     display: flex;
@@ -629,6 +679,11 @@ body.menu-expanded button path {
     display: flex;
     align-items: center;
     gap: 0.8rem;
+}
+
+#contact a {
+    text-decoration: none;
+    color: var(--bg-light);
 }
 
 /*============CONGIGURAÇÕES DO FOOTER============*/
@@ -814,13 +869,14 @@ footer a {
 
     nav#navigation .menu {
         display: flex;
+        align-items: center;
         justify-content: space-between;
         width: 60%;
     }
 
     nav#navigation .menu ul:nth-child(1) {
         display: flex;
-        gap: 3.2rem;
+        gap: 3rem;
         justify-content: center;
     }
     
@@ -841,7 +897,7 @@ footer a {
         color: var(--primary-color);
 
         font-weight: 700;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         line-height: 1.8rem;
         text-transform: uppercase;
 
@@ -873,6 +929,7 @@ footer a {
         font-weight: 700;
     }
 
+    /*linha que fica abaisxo do texto no menu*/
     nav#navigation .menu li a::after {
         content: '';
         width: 0%;
@@ -880,7 +937,7 @@ footer a {
         background-color: var(--primary-color);
 
         position: relative;
-        bottom: -2.3rem;
+        bottom: -2.2rem;
         left: -0.5rem;
 
         display: block;
@@ -1065,6 +1122,14 @@ footer a {
 
     #contact .col-b {
         margin-top: 3rem;
+        text-decoration: none;
+    }
+
+    
+    #contact a{
+    
+        text-decoration: none;
+        color: var(--bg-light);
     }
 
     /*==========CONFIGURAÇÕES DO FOOTER==========*/
