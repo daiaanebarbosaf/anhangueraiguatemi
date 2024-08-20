@@ -65,7 +65,7 @@ img {
 }
 
 section {
-    padding-block: 5rem;
+    padding-block: 10rem;
     padding-inline: 2.4rem;
 }
 
@@ -542,6 +542,7 @@ body.menu-expanded button path {
 /*==========CONFIGURAÇÕES DO DAYS==========*/
 
 #days header {
+    margin-top: -20rem;
     margin-bottom: 2rem;
 }
 
@@ -551,26 +552,34 @@ body.menu-expanded button path {
     justify-content: center;
     gap: 1rem;
 
-    
-}
-
-#days .dropdown-button {
-
-    position: relative;
-    width: 100%;
     text-align: left;
 
-    background-color: var(--primary-color-light);
-
-    font-size: 1.5rem;
-    font-weight: bold;
-
-    border: none;
 }
 
-#days .dropdown-item {
+#days .accordion-button {
+    background-color: var(--primary-color);
+    color: var(--bg-light);
+    font-weight: bold;
+
     font-size: 1rem;
-    width: 30rem;
+
+    border-radius: 4px;
+}
+
+
+#days .accordion-collapse {
+    background-color: var(--brand-beige);
+    color: var(--headline);
+
+    font-size: 1.2rem;
+
+    border: 1px solid var(--primary-color-light);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#days .accordion-collapse span {
+    font-weight: bold;
 }
   
 /*============CONGIGURAÇÕES DO NEWS============*/
@@ -1119,6 +1128,12 @@ footer a:hover {
         width: 70%;
 
         gap: 2rem;
+    }
+
+       /*============CONGIGURAÇÕES DO DAYS============*/
+
+    #days .accordion-button {
+        font-size: 1.5rem;
     }
 
  
