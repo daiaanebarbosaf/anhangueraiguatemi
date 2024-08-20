@@ -1,1 +1,7 @@
-{ "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
+{  "rewrites": [
+    { "source": "/old-path", "destination": "/new-path" }
+  ],
+  "redirects": [
+    { "source": "/old-blog/:slug", "destination": "/new-blog/:slug", "permanent": true }
+  ] 
+}
