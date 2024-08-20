@@ -1,9 +1,9 @@
 {
     "rewrites": [
-      { "source": "/monday", "destination": "/pages/days/monday.html" },
-      { "source": "/tuesday", "destination": "/pages/days/tuesday.html" },
-      { "source": "/wednesday", "destination": "/pages/days/wednesday.html" },
-      { "source": "/thursday", "destination": "/pages/days/thursday.html" },
-      { "source": "/friday", "destination": "/pages/days/friday.html" }
+      { "source": "/monday", "destination": "/monday.html" },
+      { "source": "/tuesday", "destination": "/tuesday.html" },
+      { "source": "/wednesday", "destination": "/wednesday.html" },
+      { "source": "/thursday", "destination": "/thursday.html" },
+      { "source": "/friday", "destination": "/friday.html" }
     ]
   }
