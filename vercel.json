@@ -1,7 +1,9 @@
-{  "rewrites": [
-    { "source": "/old-path", "destination": "/new-path" }
-  ],
-  "redirects": [
-    { "source": "/old-blog/:slug", "destination": "/new-blog/:slug", "permanent": true }
-  ] 
-}
+{
+    "rewrites": [
+      { "source": "/monday", "destination": "/pages/days/monday.html" },
+      { "source": "/tuesday", "destination": "/pages/days/tuesday.html" },
+      { "source": "/wednesday", "destination": "/pages/days/wednesday.html" },
+      { "source": "/thursday", "destination": "/pages/days/thursday.html" },
+      { "source": "/friday", "destination": "/pages/days/friday.html" }
+    ]
+  }
