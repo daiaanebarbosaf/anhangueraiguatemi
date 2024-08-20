@@ -1,1 +1,9 @@
-{ "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
+{
+    "rewrites": [
+      { "source": "/monday", "destination": "/monday.html" },
+      { "source": "/tuesday", "destination": "/tuesday.html" },
+      { "source": "/wednesday", "destination": "/wednesday.html" },
+      { "source": "/thursday", "destination": "/thursday.html" },
+      { "source": "/friday", "destination": "/friday.html" }
+    ]
+  }
