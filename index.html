@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon"/>
 
     <title>Anhanguera Info</title>
 
@@ -380,6 +380,8 @@
           <ul>
             <li><a onclick="closeMenu()" href="#home">Início</a></li>
             <li><a onclick="closeMenu()" href="#services">Canais de Atendimento</a></li>
+            <li><a onclick="closeMenu()" href="#news">Orientações</a></li>
+            <li><a onclick="closeMenu()" href="#lives">Lives</a></li>
             <li><a onclick="closeMenu()" href="#classes">Salas</a></li>
        
             <!--<li><a onclick="closeMenu()" href="#events">Eventos</a></li>-->
@@ -716,7 +718,7 @@
 
           <div class="content">
             <p>
-              Estar com seuas dados atualizados nos possibilita ter uma comunicação eficaz.
+              Estar com seus dados atualizados nos possibilita ter uma comunicação eficaz.
             </p>
           </div>
         </div>
@@ -734,7 +736,7 @@
     <section id="lives">
       <div class="wrapper">
         <header>
-          <h4>Assista as lives</h4>
+          <h4>Assista às lives</h4>
           <h2>Aqui você encontra as respostas que precisa:</h2>
         </header>
         <div class="container">
@@ -772,7 +774,7 @@
       <div class="wrapper">
         <header>
           <h4>Escolha o dia que você tem aula:</h4>
-          <h2>De Seguda a Sexta</h2>
+          <h2>De Segunda a Sexta</h2>
         </header>
 
         <div class="week-classes">
@@ -1039,6 +1041,8 @@
             activateMenuAtCurrentSection(home)
             activateMenuAtCurrentSection(services)
             activateMenuAtCurrentSection(news)
+            activateMenuAtCurrentSection(lives)
+            activateMenuAtCurrentSection(classes)
             activateMenuAtCurrentSection(contact)
         }
 
@@ -1103,16 +1107,19 @@
             #home, 
             #home img, 
             #home .stats, 
+
             #services,
             #services header,
             #services .cards,
+
             #news, 
             #news header, 
             #news .content,
 
-            #events,
-            #events header,
-            #events .content,
+            #lives,
+            #lives header,
+            #lives .container,
+            #lives .card,
 
             #contact,
             #contact header,
