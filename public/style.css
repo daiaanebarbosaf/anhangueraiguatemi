@@ -183,7 +183,7 @@ nav {
 nav .wrapper{
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 nav.scroll {
@@ -888,17 +888,17 @@ footer a:hover {
     nav#navigation .social-links {
         display: none;
     }
-
+    /*Espaçamento entre os links do menu*/
     nav#navigation .menu {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 60%;
+        width: 70%;
     }
 
     nav#navigation .menu ul:nth-child(1) {
         display: flex;
-        gap: 3rem;
+        gap: 2rem;
         justify-content: center;
     }
     
@@ -951,7 +951,7 @@ footer a:hover {
         font-weight: 700;
     }
 
-    /*linha que fica abaisxo do texto no menu*/
+    /*linha que fica abaixo do texto no menu*/
     nav#navigation .menu li a::after {
         content: '';
         width: 0%;
@@ -960,7 +960,7 @@ footer a:hover {
 
         position: relative;
         bottom: -2.2rem;
-        left: -0.5rem;
+        
 
         display: block;
 
