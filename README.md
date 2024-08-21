@@ -1,4 +1,4 @@
-<h1 align="center"> Anhanguera Noticias </h1>
+<h1 align="center"> Anhanguera Info </h1>
 <p align="center">
 
 
@@ -17,6 +17,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
+- Bootstrap
 
 ## 💻 Projeto
 
