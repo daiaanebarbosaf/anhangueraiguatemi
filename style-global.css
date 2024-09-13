@@ -662,8 +662,12 @@ body.menu-expanded button path {
 }
 
 #events img {
-    width: 50%;
+    width: 100%;
     margin-top: 3rem;
+}
+
+#events p {
+    font-size: 1.5rem;
 }
 
 /*============CONGIGURAÇÕES DO CONTACT============*/
@@ -1134,6 +1138,11 @@ footer a:hover {
         width: 70%;
 
         gap: 2rem;
+    }
+
+    #events img {
+        width: 40%;
+        margin-top: 3rem;
     }
 
        /*============CONGIGURAÇÕES DO DAYS============*/
