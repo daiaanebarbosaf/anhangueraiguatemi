@@ -664,6 +664,8 @@ body.menu-expanded button path {
 #events img {
     width: 100%;
     margin-top: 3rem;
+
+    border-radius: 8px;
 }
 
 #events p {
